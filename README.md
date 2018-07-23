@@ -7,3 +7,4 @@ This is taken largely from [here](https://omeka.org/s/docs/developer/key_concept
 3. Compile as you save changes to css: `gulp css:watch`
 4. add `custom.css` to `css/sass/_custom.scss`
 5. add to `styles.scss` the line: `@import "custom"`
+

@@ -3,7 +3,9 @@
   "version": "2.6.0",
   "description": "\"Abstraction of the Making the History of 1989 theme.\"",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-cli": "^2.0.1"
+  },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "gulp": "github:gulpjs/gulp#4.0",
