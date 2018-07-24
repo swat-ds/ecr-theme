@@ -1699,7 +1699,7 @@ body, html {
 /* @group ----- Colors and Fonts ----- */
 body {
   color: #494646;
-  font-family: "Cormorant Garamond", Times, serif;
+  font-family: "Garamond", Times, serif;
   font-size: 20px;
   letter-spacing: .004em; }
 
@@ -1709,9 +1709,7 @@ header {
 #logo {
   width: 100%;
   padding-bottom: .2%;
-  padding-left: 2% !important;
-  background-image: url(../../../img/cr_logo.svg);
-  background-size: cover; }
+  padding-left: 2% !important; }
 
 #logo a {
   border: none; }
@@ -1726,7 +1724,7 @@ ul.navigation.nav-menu {
 
 h2 {
   color: #4d6a6d;
-  font-family: "Avenir", Helvetica, sans-serif !important;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.5em; }
 
@@ -1743,7 +1741,7 @@ a:active {
   color: #777; }
 
 p {
-  font-family: "Cormorant Garamond", Times, serif; }
+  font-family: "Garamond", Times, serif; }
 
 .button, button, input[type="reset"], input[type="submit"], input[type="button"], .pagination_next a, .pagination_previous a {
   color: #4d6a6d; }
@@ -1758,7 +1756,7 @@ header {
   background-size: auto !important;
   -ms-behavior: url("../javascripts/backgroundsize.min.htc");
   background-position-x: right !important;
-  font-family: "Avenir", Helvetica, sans-serif !important;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-weight: 400;
   background-color: rgba(234, 224, 204, 0.8);
   width: 100%;
@@ -1916,98 +1914,6 @@ img {
 
 /* @end navigation */
 /* @group ---Content--- */
-/* -- Slideshow -- */
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-  padding: 0 !important;
-  width: 100%; }
-
-/* Hide the images by default */
-.mySlides {
-  display: none; }
-
-#defaultSlide {
-  display: block; }
-
-.slideNav {
-  height: 5%; }
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer; }
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  width: auto;
-  padding: 16px;
-  margin-top: -60px;
-  color: white;
-  font-weight: 400;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  background-color: rgba(73, 70, 70, 0.75);
-  font-family: "Avenir", Helvetica, sans-serif !important;
-  letter-spacing: .02em; }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px; }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: #4d6a6d; }
-
-.prev:focus, .next:focus {
-  border: none;
-  background-color: #4d6a6d; }
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0; }
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: rgba(68, 63, 63, 0.9);
-  padding: 2px 16px;
-  color: white; }
-
-#caption {
-  font-family: "Avenir", Helvetica, sans-serif !important; }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/* Four columns side by side */
-.column {
-  float: left;
-  width: 22%; }
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6; }
-
-.active,
-.demo:hover {
-  opacity: 1; }
-
-/* --@end SLIDESHOW --*/
 #content {
   width: 100%;
   top: 0;
@@ -2022,8 +1928,7 @@ img {
   position: relative;
   display: block;
   width: 45%;
-  border: none;
-  font-family: "Avenir", Helvetica, sans-serif !important; }
+  border: none; }
 
 #featured-img {
   box-shadow: 5px 5px 35px;
@@ -2056,7 +1961,7 @@ img {
   padding: 0 !important; }
 
 #home #content h2 {
-  text-transform: lowercase;
+  text-transform: capitalize;
   letter-spacing: .04em;
   font-size: 1.8em;
   padding: 1%;
@@ -2069,10 +1974,11 @@ img {
 
 #secondary {
   background: #eee;
-  position: relative; }
+  position: relative;
+  padding-bottom: 50px; }
 
 #secondary p {
-  padding-left: 5% !important;
+  padding-left: 7% !important;
   padding-right: 5% !important;
   padding-bottom: 1% !important;
   font-size: 1.4em;
@@ -2089,7 +1995,7 @@ footer {
   padding: 0.5em 2em;
   width: 100%;
   height: auto;
-  font-family: "Avenir", Helvetica, sans-serif !important;
+  font-family: "Avenir", Helvetica, sans-serif;
   background-color: rgba(234, 224, 204, 0.8);
   font-size: .9em;
   overflow: visible; }
@@ -2099,7 +2005,7 @@ footer {
   margin: 0 auto; }
 
 footer p {
-  font-family: "Avenir", Helvetica, sans-serif !important;
+  font-family: "Avenir", Helvetica, sans-serif;
   float: right; }
 
 footer nav {
@@ -2360,7 +2266,7 @@ img a {
     line-height: 1.3em;
     letter-spacing: .01em; }
   #home #content h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding-bottom: 0;
     padding-left: .4em;
     font-weight: 400; }
