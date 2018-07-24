@@ -1709,7 +1709,8 @@ header {
 #logo {
   width: 100%;
   padding-bottom: .2%;
-  padding-left: 2% !important; }
+  padding-left: 2% !important;
+  background-image: url(../../../img/cr_logo.svg); }
 
 #logo a {
   border: none; }
