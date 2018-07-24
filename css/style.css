@@ -1717,7 +1717,7 @@ header {
   border: none; }
 
 ul.nav-menu {
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif !important;
+  font-family: "Avenir", Helvetica, sans-serif !important;
   font-size: 24px;
   background-color: transparent; }
 
@@ -1726,7 +1726,7 @@ ul.navigation.nav-menu {
 
 h2 {
   color: #4d6a6d;
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.5em; }
 
@@ -1749,7 +1749,7 @@ p {
   color: #4d6a6d; }
 
 footer {
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-weight: 400; }
 
 /* @end font styles*/
@@ -1758,7 +1758,7 @@ header {
   background-size: auto !important;
   -ms-behavior: url("../javascripts/backgroundsize.min.htc");
   background-position-x: right !important;
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   font-weight: 400;
   background-color: rgba(234, 224, 204, 0.8);
   width: 100%;
@@ -1954,7 +1954,7 @@ img {
        user-select: none;
   -webkit-user-select: none;
   background-color: rgba(73, 70, 70, 0.75);
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   letter-spacing: .02em;
   /*top: 40%;*/ }
 
@@ -1988,7 +1988,7 @@ img {
   color: white; }
 
 #caption {
-  font-family: "Avenir", "Roboto", Arial, sans-serif; }
+  font-family: "Avenir", Helvetica, sans-serif; }
 
 .row:after {
   content: "";
@@ -2089,7 +2089,7 @@ footer {
   padding: 0.5em 2em;
   width: 100%;
   height: auto;
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   background-color: rgba(234, 224, 204, 0.8);
   font-size: .9em;
   overflow: visible; }
@@ -2099,7 +2099,7 @@ footer {
   margin: 0 auto; }
 
 footer p {
-  font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
   float: right; }
 
 footer nav {
@@ -2369,7 +2369,7 @@ img a {
     font-size: .5em;
     padding: 1%; }
   footer p {
-    font-family: "Avenir", "Roboto", Helvetica, sans-serif;
+    font-family: "Avenir", Helvetica, sans-serif;
     float: right;
     padding: 1%;
     margin: 0; }
