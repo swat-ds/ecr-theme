@@ -143,6 +143,10 @@ img {
 }
 #primary-nav a:hover {
   background: rgb(77, 106, 109);
+  transition: .3s;
+}
+#primary-nav a:not(hover) {
+  background: transparent;
 }
 .navBar {
   padding-top: 1%;
@@ -278,7 +282,6 @@ img {
 #featured-exhibit img {
   background-color: transparent;
 }
-
 /* -- Slideshow -- */
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -333,6 +336,7 @@ img {
 .prev:hover,
 .next:hover {
   background-color: rgb(77, 106, 109);
+  transition: .3s;
 }
 
 .prev:focus, .next:focus {
@@ -379,6 +383,7 @@ img {
 .active,
 .demo:hover {
   opacity: 1;
+  transition: 1s;
 }
 /* @end primary content */
 
