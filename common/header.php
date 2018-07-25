@@ -46,8 +46,19 @@
                 <?php echo search_form(); ?>
                 <?php endif; ?>
             </div>
-        </header>
+            <div id="primary-nav" role="navigation">
+             <?php
+                  echo public_nav_main();
+             ?>
+            </div>
 
+            <div id="mobile-nav" role="navigation" aria-label="<?php echo __('Mobile Navigation'); ?>">
+             <?php
+                  echo public_nav_main();
+             ?>
+            </div>
+        </header>
+        
          <div id="primary-nav" role="navigation">
              <?php
                   echo public_nav_main();
