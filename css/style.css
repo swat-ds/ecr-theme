@@ -2025,7 +2025,8 @@ img {
   color: white; }
 
 #caption {
-  font-family: "Avenir", Arial, sans-serif; }
+  font-family: "Avenir", Arial, sans-serif;
+  font-size: 1em; }
 
 .row:after {
   content: "";
@@ -2168,12 +2169,16 @@ img a {
   .prev, .next {
     font-size: 20px;
     padding: 18px; }
+  #caption {
+    font-size: .9em; }
   #content #secondary {
     line-height: 1.2em;
     font-size: 16px;
     width: 50%; }
   #secondary p {
-    padding: .6em 1em; } }
+    padding: .6em 1em; }
+  footer {
+    font-size: .7em; } }
 
 /* --end @group-- */
 /* --@group big landscape tablets, laptops, and desktops-- */
@@ -2196,6 +2201,8 @@ img a {
   .prev, .next {
     font-size: 18px;
     padding: 16px; }
+  #caption {
+    font-size: .9em; }
   #content #primary {
     width: 40%; }
   #content #secondary {
@@ -2212,7 +2219,7 @@ img a {
     padding-bottom: 0;
     font-weight: 400; }
   footer {
-    font-size: .8em; } }
+    font-size: .7em; } }
 
 /* --end @group-- */
 /* --@group tablet, landscape iPad, lo-res laptops ands desktops-- */
@@ -2226,6 +2233,8 @@ img a {
     min-width: 415px; }
   #content {
     padding: 3% 5%; }
+  #caption {
+    font-size: .9em; }
   #content #primary {
     width: 40%; }
   .prev, .next {
@@ -2260,6 +2269,8 @@ img a {
   #content {
     padding: 3% 5%;
     overflow: auto; }
+  #caption {
+    font-size: .9em; }
   #content #primary {
     width: 40%; }
   .prev, .next {

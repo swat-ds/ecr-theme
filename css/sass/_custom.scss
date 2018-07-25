@@ -361,6 +361,7 @@ img {
 }
 #caption {
   font-family: "Avenir", Arial, sans-serif;
+  font-size: 1em;
 }
 
 .row:after {
@@ -517,6 +518,9 @@ img a {
     font-size: 20px;
     padding: 18px;
   }
+  #caption {
+    font-size: .9em;
+  }
   #content #secondary {
     line-height: 1.2em;
     font-size: 16px;
@@ -524,6 +528,9 @@ img a {
   }
   #secondary p {
     padding: .6em 1em;
+  }
+  footer {
+    font-size: .7em;
   }
 }
 /* --end @group-- */
@@ -555,6 +562,9 @@ img a {
     font-size: 18px;
     padding: 16px;
   }
+  #caption {
+    font-size: .9em;
+  }
   #content #primary {
     width: 40%;
   }
@@ -575,7 +585,7 @@ img a {
     font-weight: 400;
   }
   footer {
-    font-size: .8em;
+    font-size: .7em;
   }
 }
 /* --end @group-- */
@@ -594,6 +604,9 @@ img a {
   }
   #content {
     padding: 3% 5%;
+  }
+  #caption {
+    font-size: .9em;
   }
   #content #primary {
     width: 40%;
@@ -639,6 +652,9 @@ img a {
   #content {
     padding: 3% 5%;
     overflow: auto;
+  }
+  #caption {
+    font-size: .9em;
   }
   #content #primary {
     width: 40%;
