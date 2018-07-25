@@ -19,7 +19,8 @@
      <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
 
 </footer>
-
+</div>
+</div>
 <script type="text/javascript">
     jQuery(document).ready(function(){
         Omeka.showAdvancedForm();
