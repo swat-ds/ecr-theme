@@ -1699,7 +1699,7 @@ body, html {
 /* @group ----- Colors and Fonts ----- */
 body {
   color: #494646;
-  font-family: "Garamond", Times, serif;
+  font-family: "Cormorant Garamond", Times, serif;
   font-size: 20px;
   letter-spacing: .004em; }
 
@@ -1741,7 +1741,7 @@ a:active {
   color: #777; }
 
 p {
-  font-family: "Garamond", Times, serif; }
+  font-family: "Cormorant Garamond", Times, serif; }
 
 .button, button, input[type="reset"], input[type="submit"], input[type="button"], .pagination_next a, .pagination_previous a {
   color: #4d6a6d; }
@@ -2084,8 +2084,12 @@ img {
   padding-right: 5% !important;
   padding-bottom: 1% !important;
   font-size: 1.4em;
-  line-height: 1.6em;
+  line-height: 1.25em;
   letter-spacing: .02em; }
+
+ol {
+  padding-left: 12% !important;
+  padding-right: 5% !important; }
 
 /* @end secondary content */
 /* @end content */
