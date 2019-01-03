@@ -60,13 +60,7 @@
              <?php
                   echo public_nav_main();
              ?>
-
-          
-   
- 
-
-
-
+           </div>
         <?php echo theme_header_image(); ?>
       </div>
     </div>
