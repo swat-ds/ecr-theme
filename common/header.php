@@ -19,6 +19,8 @@
 
     <?php fire_plugin_hook('public_head',array('view'=>$this)); ?>
     <!-- Stylesheets -->
+    <link href="../css/skeleton.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" media="all" rel="stylesheet" type="text/css">
     <?php
     queue_css_file(array('iconfonts', 'skeleton','style'));
 
@@ -33,6 +35,8 @@
     <?php echo head_js(); ?>
 </head>
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
+ <div id="overlay">
+   <div id="overlaySolid">
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
         <header role="banner">
@@ -56,8 +60,18 @@
              <?php
                   echo public_nav_main();
              ?>
-            </div>
-        </header>
-    <div id="content" role="main" tabindex="-1">
+
+          
+   
+ 
+
+
+
+        <?php echo theme_header_image(); ?>
+      </div>
+    </div>
+  <div id="content" role="main" tabindex="-1">
+
+
 
 <?php fire_plugin_hook('public_content_top', array('view'=>$this)); ?>
