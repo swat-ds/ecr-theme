@@ -19,6 +19,11 @@
      <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
 
 </footer>
+
+
+</div><!-- end overlay solid-->
+</div><!-- end overlay-->
+
 <script type="text/javascript">
     jQuery(document).ready(function(){
         Omeka.showAdvancedForm();

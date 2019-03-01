@@ -66,10 +66,10 @@
              ?>
            </div>
         <?php echo theme_header_image(); ?>
-      <!-- <div id="content" role="main" tabindex="-1"> -->
+      <div id="content" role="main" tabindex="-1">
     <!-- </div> -->
-  </div>
-</div>
+  <!-- </div>
+</div> -->
 
 
 
