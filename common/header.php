@@ -37,7 +37,7 @@
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
  <div id="overlay">
    <div id="overlaySolid">
-    <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
+    <!-- <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a> -->
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
         <header role="banner">
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
