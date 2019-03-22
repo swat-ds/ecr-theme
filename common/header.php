@@ -43,10 +43,10 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title"><?php echo link_to_home_page(theme_logo()); ?></div>
             <!-- ADD LOGO-->
-            <div id="logo" tabindex="">
+            <!-- <div id="logo" tabindex="">
                 <a href="index.html"><img src="themes/ecr-theme/img/cr_logo.svg" alt="Swarthmore's Oral Histories"></a>
             <!--  <div id="site-title"><a href="index.html">Oral Histories</a> -->
-            </div>
+            </div> -->
             <div id="search-container" role="search">
                 <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
                 <?php echo search_form(array('show_advanced' => true)); ?>
@@ -65,6 +65,7 @@
                   echo public_nav_main();
              ?>
            </div>
+	  </header>
         <?php echo theme_header_image(); ?>
       <div id="content" role="main" tabindex="-1">
     <!-- </div> -->
