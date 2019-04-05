@@ -259,6 +259,7 @@ img {
 
 /* @group ---Content--- */
 /* Primary Content */
+
 #content {
   width: 100%;
   top: 0;
@@ -268,12 +269,19 @@ img {
   border: none;
   background: none;
   margin-bottom: 40px;
+  
 }
 #content #primary {
   position: relative;
   display: block;
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: 400;
   width: 45%;
   border: none;
+  background-size: auto !important;
+  background-color: rgba(234, 224, 204, 0.8);
+  box-shadow: 2px 0 40px;
+  z-index: 1000
 }
 #featured-img {
   box-shadow: 5px 5px 35px;
