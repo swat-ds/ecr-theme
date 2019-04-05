@@ -39,6 +39,7 @@
    <div id="overlaySolid"> -->
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
+        
         <header role="banner">
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title"><?php echo link_to_home_page(theme_logo()); ?></div>
@@ -67,8 +68,8 @@
            </div>
         <?php echo theme_header_image(); ?>
       <div id="content" role="main" tabindex="-1">
-    <!-- </div> -->
-  <!-- </div>
+    <!-- </div>
+   </div>
 </div> -->
 
 
