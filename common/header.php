@@ -46,7 +46,7 @@
             <!-- ADD LOGO-->
             <!-- <div id="logo" tabindex="">
                 <a href="index.html"><img src="themes/ecr-theme/img/cr_logo.svg" alt="Swarthmore's Oral Histories"></a>
-            <!--  <div id="site-title"><a href="index.html">Oral Histories</a> -->
+            <div id="site-title"><a href="index.html">Oral Histories</a> 
             </div> -->
             <div id="search-container" role="search">
                 <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>

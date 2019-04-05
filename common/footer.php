@@ -21,8 +21,8 @@
 </footer>
 
 
-<!-- </div><! end overlay solid--> -->
-<!-- </div><! end overlay--> -->
+<!-- </div><! end overlay solid--> 
+<!-- </div><! end overlay--> 
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
