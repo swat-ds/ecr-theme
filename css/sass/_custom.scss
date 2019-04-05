@@ -283,6 +283,14 @@ img {
   box-shadow: 2px 0 40px;
   z-index: 1000
 }
+#content #primary p {
+  padding-left: 7% !important;
+  padding-right: 5% !important;
+  padding-bottom: 1% !important;
+  font-size: 1.4em;
+  line-height: 1.25em;
+  letter-spacing: .02em;
+}
 #featured-img {
   box-shadow: 5px 5px 35px;
   position: relative;
