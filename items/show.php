@@ -14,17 +14,6 @@
     <?php if ((get_theme_option('Item FileDisplay') == 0) && metadata('item', 'has files')): ?>
       <h3><?php echo __('Files'); ?></h3>
       <div id="item-images">
-        <?php echo $this->shortcodes('[concarousel ids='.metadata('item','id').' 
-        center=false 
-        slides=3 
-        showdescription=true 
-        captionposition=center 
-        width=100% 
-        float=left 
-        slideshow=false 
-        focus=true 
-        navigation=true 
-        navbar=true]');?> 
       </div>
     <?php endif; ?>
 
