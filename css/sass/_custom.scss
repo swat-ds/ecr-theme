@@ -110,6 +110,17 @@ header {
 img {
   width: 30%;
 }
+.jcarousel img {
+  display: block;
+  max-width: 100%;
+  border: 2px solid transparent;
+  height: auto !important;
+  margin: auto;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
 #logo img {
   width: 510px;
 }
