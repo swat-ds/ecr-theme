@@ -2050,7 +2050,7 @@ header {
 img {
   width: 30%; }
 
-/*jcarousel image formatting to override default image width*/
+/* added jcarousel image formatting to override default image width*/
 .jcarousel img {
   display: block;
   max-width: 100%;
@@ -2212,7 +2212,6 @@ img {
 /* @end header */
 /* @group ---Content--- */
 /* Primary Content */
-/*formatted content to match static page*/
 #content {
   width: 100%;
   top: 0;
@@ -2223,6 +2222,8 @@ img {
   background: none;
   margin-bottom: 40px; }
 
+/*added font and background color to match static page
+     *formatting*/
 #content #primary {
   position: relative;
   display: block;
