@@ -1,0 +1,46 @@
+/* @group--Footer-- */
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    /*padding: 0.5em 2em;*/
+    width: 100%;
+    height: 5%;
+    font-family: "Avenir", Helvetica, sans-serif;
+    background-color: rgba(234, 224, 204, 0.8);
+    font-size: .9em;
+    overflow: visible;
+    padding: 0.5%;
+    padding-left: 2% !important;
+  }
+  #footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer p {
+    margin: 0.5% 0;
+    font-family: "Avenir", Helvetica, sans-serif;
+    float: right;
+  }
+  footer nav {
+    margin: 0.5% 0;
+    float: left;
+    border-bottom: 1px solid transparent;
+  }
+  #omeka {
+    font-weight: bold;
+    border-bottom: 1px dotted rgb(77, 106, 109);
+  }
+  #footer-content a:hover, a:focus {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+  }
+  footer .navigation li:after {
+    color: rgb(77, 106, 109);
+  }
+  footer .navigation {
+    font-weight: 500;
+  }
+  /* -- @end footer -- */
