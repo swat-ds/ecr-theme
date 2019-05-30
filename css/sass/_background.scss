@@ -16,6 +16,7 @@ body, html {
     width: 100%;
     overflow: auto;
   }
+  /*No longer reliant on overlay background*/
   #overlay {
     background-image: url(../img/freedom-summer.jpg);
     background-size: cover;

@@ -1680,6 +1680,7 @@ body {
   font-size: 20px;
   letter-spacing: .004em; }
 
+/*lowercase font in the header to match theme*/
 header {
   border: none;
   text-transform: lowercase; }
@@ -1998,7 +1999,8 @@ img a {
 
 /* -- @end --*/
 /* ---- @background ---- */
-/**/
+/*background image formated using gradient
+  documentation here: https://developer.mozilla.org/fr/docs/Web/CSS/linear-gradient */
 body, html {
   height: 100%;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/freedom-summer.jpg);
@@ -2009,6 +2011,7 @@ body, html {
   width: 100%;
   overflow: auto; }
 
+/*No longer reliant on overlay background*/
 #overlay {
   background-image: url(../img/freedom-summer.jpg);
   background-size: cover;
@@ -2029,6 +2032,7 @@ body, html {
 
 /* @end */
 /* @group ----- Header ----- */
+/* includes formatting for navbar and search bar*/
 header {
   background-size: auto !important;
   -ms-behavior: url("../javascripts/backgroundsize.min.htc");
@@ -2046,6 +2050,7 @@ header {
 img {
   width: 30%; }
 
+/*jcarousel image formatting to override default image width*/
 .jcarousel img {
   display: block;
   max-width: 100%;
@@ -2217,10 +2222,11 @@ img {
   background: none;
   margin-bottom: 40px; }
 
+/*format primary content inside beige box*/
 #content #primary {
   position: relative;
   display: block;
-  font-family: "Avenir", Helvetica, sans-serif;
+  font-family: "Cormorant Garamond", Times, serif;
   font-weight: 400;
   width: 45%;
   border: none;
@@ -2355,6 +2361,7 @@ img {
   overflow: visible;
   background-color: rgba(234, 224, 204, 0.95);
   line-height: 1.2em;
+  font-family: "Cormorant Garamond", Times, serif;
   font-size: 18px;
   box-shadow: 2px 2px 25px;
   width: 50%; }

@@ -1,4 +1,5 @@
 /* @group ----- Header ----- */
+/* includes formatting for navbar and search bar*/
 header {
     background-size: auto !important;
     -ms-behavior: url("../javascripts/backgroundsize.min.htc");
@@ -16,6 +17,7 @@ header {
 img {
     width: 30%;
 }
+/*jcarousel image formatting to override default image width*/
 .jcarousel img {
     display: block;
     max-width: 100%;
